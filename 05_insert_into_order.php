@@ -59,7 +59,7 @@
 
     $conn->close();
     ?>
-    <a href="http://localhost/exp/04_initialtask.html" class="go-home-button">Home</a>
+    <a href="./04_initialtask.html" class="go-home-button">Home</a>
 </body>
 
 </html>

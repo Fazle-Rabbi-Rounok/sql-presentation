@@ -63,7 +63,7 @@
             echo '<div class="message error">Connection failed: ' . $conn->connect_error . '</div>';
         }
         // SQL query to create a table
-        $sql = "CREATE TABLE users (
+        $sql = "CREATE TABLE if not exists users (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
     email VARCHAR(100) UNIQUE NOT NULL,
@@ -81,7 +81,7 @@
         // Close the connection
         $conn->close();
         ?>
-        <a href="http://localhost/exp/04_initialtask.html" class="go-home-button">Home</a>
+        <a href="./04_initialtask.html" class="go-home-button">Home</a>
     </div>
 </body>
 

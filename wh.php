@@ -188,7 +188,7 @@
 
     $conn->close();
     ?>
-    <a href="http://localhost/exp/07_thnks.html" class="go-home-button">END</a>
+    <a href="./07_thnks.html" class="go-home-button">END</a>
 </body>
 
 </html>

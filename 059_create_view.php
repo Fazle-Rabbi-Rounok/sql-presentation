@@ -88,7 +88,7 @@ CREATE VIEW
     }
 
     $conn->close();
-    ?> <a href="http://localhost/exp/05_queries.html" class="go-home">Home</a>
+    ?> <a href="./05_queries.html" class="go-home">Home</a>
 </body>
 
 </html>
